@@ -1,5 +1,5 @@
 # BVAE-TTS
-- Implementation of ["bidirectional variational inference for non-autoregressive text-to-speech"](https://openreview.net/forum?id=o3iritJHLfO)  
+- Implementation of ["Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech"](https://openreview.net/forum?id=o3iritJHLfO)  
   
 
 ## Training  
