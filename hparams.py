@@ -9,7 +9,7 @@ output_directory = 'training_log'
 iters_per_validation=1000
 iters_per_checkpoint=10000
 
-data_path = '../Dataset/LJSpeech-1.1/public'
+data_path = '../Dataset/LJSpeech-1.1/preprocessed'
 training_files='filelists/ljs_audio_text_train_filelist.txt'
 validation_files='filelists/ljs_audio_text_val_filelist.txt'
 test_files='filelists/ljs_audio_text_val_filelist.txt'
