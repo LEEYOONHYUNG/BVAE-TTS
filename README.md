@@ -4,7 +4,7 @@
 
 ## Training  
 1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)  
-2. Make `preprocessed` folder in LJSpeech directory and do preprocessing the data using `prepare_data.ipynb`  
+2. Make `preprocessed` folder in LJSpeech directory and do preprocessing of the data using `prepare_data.ipynb`  
 3. Set the `data_path` in `hparams.py` to the preprocessed folder  
 ```python
 `python train.py --gpu=0 --logdir=baseline`  
