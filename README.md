@@ -12,8 +12,8 @@
 
 
 ## Pre-trained models  
-- [BVAE-TTS](https://drive.google.com/file/d/1X57eVggjzZZ8MRyGZ6DGRpS_rcwuD8El/view?usp=sharing)  
-- [WaveGlow](https://drive.google.com/file/d/1ve0A61s1EQebx-4g63i4ULSJGMkdWWEj/view?usp=sharing)  
+- [BVAE-TTS](https://drive.google.com/u/0/uc?id=1X57eVggjzZZ8MRyGZ6DGRpS_rcwuD8El&export=download)  
+- [WaveGlow](https://drive.google.com/u/0/uc?id=1ve0A61s1EQebx-4g63i4ULSJGMkdWWEj&export=download)  
 
 
 ## Audio Samples  
