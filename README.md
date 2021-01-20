@@ -10,8 +10,15 @@
 `python train.py --gpu=0 --logdir=baseline`  
 ```  
 
+
+
+## Pre-trained models  
+- [BVAE-TTS](https://openreview.net/forum?id=o3iritJHLfO)  
+- [WaveGlow](https://openreview.net/forum?id=o3iritJHLfO)  
+
+
 ## Audio Samples  
-You can hear the audio samples [here](https://leeyoonhyung.github.io/Transformer-TTS/)
+You can hear the audio samples [here](https://leeyoonhyung.github.io/Transformer-TTS/)  
 
 ## Notice  
 1. Unlike the original paper, I didn't use the encoder-prenet following [espnet](https://github.com/espnet/espnet)  
