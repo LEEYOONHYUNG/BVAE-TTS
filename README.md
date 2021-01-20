@@ -11,18 +11,19 @@
 ```  
 
 
-
 ## Pre-trained models  
-- [BVAE-TTS](https://openreview.net/forum?id=o3iritJHLfO)  
-- [WaveGlow](https://openreview.net/forum?id=o3iritJHLfO)  
+- [BVAE-TTS](https://drive.google.com/file/d/1X57eVggjzZZ8MRyGZ6DGRpS_rcwuD8El/view?usp=sharing)  
+- [WaveGlow](https://drive.google.com/file/d/1ve0A61s1EQebx-4g63i4ULSJGMkdWWEj/view?usp=sharing)  
 
 
 ## Audio Samples  
 You can hear the audio samples [here](https://leeyoonhyung.github.io/Transformer-TTS/)  
 
+
 ## Notice  
 1. Unlike the original paper, I didn't use the encoder-prenet following [espnet](https://github.com/espnet/espnet)  
 2. I apply additional ["guided attention loss"](https://arxiv.org/pdf/1710.08969.pdf) to the two heads of the last two layers  
+
 
 ## Reference
 1.NVIDIA/tacotron2: https://github.com/NVIDIA/tacotron2  
