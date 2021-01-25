@@ -189,7 +189,7 @@ class Projection(nn.Module):
         super(Projection, self).__init__()
         self.layers=nn.ModuleList([Conv1d(hdim, hdim, kernel_size, activation=F.elu),
                                    Conv1d(hdim, hdim, kernel_size, activation=F.elu),
-                                   Conv1d(hdim, outdim, 5)])
+                                   Conv1d(hdim, outdim, kernel_size)])
         
     def forward(self, x, mask=None):
         for i, layer in enumerate(self.layers):
