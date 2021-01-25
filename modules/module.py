@@ -100,7 +100,7 @@ class BVAE_layer(nn.Module):
             
         self.up_conv_a = nn.ModuleList([sn(Conv1d(hdim, hdim, kernel_size, activation=F.elu)),
                                         sn(Conv1d(hdim, 3*hdim, kernel_size, bias=False))])
-        self.up_conv_b = sn(Conv1d(hdim, hdim, 5, activation=F.elu))
+        self.up_conv_b = sn(Conv1d(hdim, hdim, kernel_size, activation=F.elu))
         
         ######################## TOP_DOWN ##########################
         self.down_conv_a = nn.ModuleList([sn(Conv1d(hdim, hdim, kernel_size, activation=F.elu)),
