@@ -12,8 +12,8 @@
 
 
 ## Pre-trained models  
-- [BVAE-TTS](http://milabfile.snu.ac.kr:15000/sharing/QZVJOnyXk)  
-- [WaveGlow](http://milabfile.snu.ac.kr:15000/sharing/KJnICuRjm)  
+- [BVAE-TTS](http://milabfile.snu.ac.kr:16000/bvae-tts/bvae_tts_300k.pt)  
+- [WaveGlow](http://milabfile.snu.ac.kr:16000/bvae-tts/waveglow_256channels.pt)  
 
 
 ## Audio Samples  
