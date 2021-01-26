@@ -1,6 +1,6 @@
 # Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech (BVAE-TTS)  
 ## Yoonhyung Lee, Joongbo Shin, Kyomin Jung  
-- Implementation of ["Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech"](https://openreview.net/forum?id=o3iritJHLfO)  
+Implementation of ["Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech"](https://openreview.net/forum?id=o3iritJHLfO)  
   
 
 ## Training  
