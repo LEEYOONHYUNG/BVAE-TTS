@@ -8,6 +8,7 @@ One-sentence Summary: In this paper, a novel non-autoregressive text-to-speech m
 1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)  
 2. Make `preprocessed` folder in the LJSpeech directory and do preprocessing of the data using `prepare_data.ipynb`  
 3. Set the `data_path` in `hparams.py` to the `preprocessed` folder  
+4. Train your own BVAE-TTS model  
 ```python
 python train.py --gpu=0 --logdir=baseline  
 ```  
