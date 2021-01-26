@@ -1,1 +1,117 @@
 
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>BVAE-TTS Audio Samples</title>
+  <link rel="stylesheet" type="text/css" href="./resources/stylesheet.css">
+</head>
+
+<body>
+  <div>
+    <h2>Audio Samples of different TTS models</h2>
+    <table>
+      <thead>
+        <tr>
+          <th> </th>
+          <th>Ground truth</th>
+          <th>WaveGlow</th>
+          <th>Tacotron2</th>
+          <th>Glow-TTS</th>
+          <th>BVAE-TTS</th>
+          <th>BVAE-TTS w/o jittering</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Steps LJ001-0029</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/0.GT_wav/LJ002-0253.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/1.GT_mel/LJ002-0253.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/2.Tacotron2/LJ002-0253.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/3.Glow-TTS/LJ002-0253.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/4.BVAE-TTS/LJ002-0253.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wav_samples/MOS-ID/5.BVAE-TTS_nojitter/LJ002-0253.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td>Steps LJ001-0085</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_char20000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_char50000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_char100000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_char200000.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td>Steps LJ002-0106</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_char20000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_char50000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_char100000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_char200000.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>waveglow_phone</h2>
+    <table>
+      <thead>
+        <tr>
+          <th> </th>
+          <th>Steps 20000</th>
+          <th>Steps 50000</th>
+          <th>Steps 100000</th>
+          <th>Steps 200000</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Steps LJ001-0029</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0029_phone20000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0029_phone50000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0029_phone100000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0029_phone200000.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td>Steps LJ001-0085</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_phone20000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_phone50000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_phone100000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ001-0085_phone200000.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td>Steps LJ002-0106</td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_phone20000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_phone50000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_phone100000.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="wavs/LJ002-0106_phone200000.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+</body>
+
+</html>
