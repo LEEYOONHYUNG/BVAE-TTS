@@ -20,7 +20,7 @@ We provide a pre-trained BVAE-TTS model, which is a model that you would obtain 
 - [WaveGlow](http://milabfile.snu.ac.kr:16000/bvae-tts/waveglow_256channels.pt)  
 
 
-## Audio Samples  
+## Audio Samples (Please listen to the samples in `wav_samples` now)  
 You can hear the audio samples [here](https://leeyoonhyung.github.io/BVAE-TTS/)  
 
 
