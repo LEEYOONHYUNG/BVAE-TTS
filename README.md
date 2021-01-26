@@ -14,7 +14,7 @@ python train.py --gpu=0 --logdir=baseline
 
 
 ## Pre-trained models  
-We provide a pre-trained BVAE-TTS model, which is a model that you would obtain with the current setting. (e.g. hyperparameters, dataset split) Also, we provide a pre-trained WaveGlow model that is used to obtain the audio samples. After downloading the models, you can generate audio samples using `inference.ipynb`.   
+We provide a pre-trained BVAE-TTS model, which is a model that you would obtain with the current setting (e.g. hyperparameters, dataset split). Also, we provide a pre-trained WaveGlow model that is used to obtain the audio samples. After downloading the models, you can generate audio samples using `inference.ipynb`.   
 - [BVAE-TTS](http://milabfile.snu.ac.kr:16000/bvae-tts/bvae_tts_300k.pt)  
 - [WaveGlow](http://milabfile.snu.ac.kr:16000/bvae-tts/waveglow_256channels.pt)  
 
