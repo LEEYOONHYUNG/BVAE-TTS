@@ -1,4 +1,4 @@
-# Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech
+# Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech (BVAE-TTS)  
 - Implementation of ["Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech"](https://openreview.net/forum?id=o3iritJHLfO)  
   
 
