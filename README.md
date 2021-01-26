@@ -21,7 +21,7 @@ We provide a pre-trained BVAE-TTS model, which is a model that you would obtain 
 
 
 ## Audio Samples  
-You can hear the audio samples [here](https://leeyoonhyung.github.io/Transformer-TTS/)  
+You can hear the audio samples [here](https://leeyoonhyung.github.io/BVAE-TTS/)  
 
 
 ## Reference
