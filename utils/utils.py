@@ -29,6 +29,7 @@ def prepare_dataloaders(hp):
 
 def get_writer(output_directory, log_directory):
     logging_path=f'{output_directory}/{log_directory}'
+    if not os.path.exists(logging_path)
     os.mkdir(logging_path)
     writer = SummaryWriter(logging_path)
     return writer
@@ -49,7 +50,7 @@ def lr_scheduling(opt, step, init_lr=hp.lr, warmup_steps=hp.lr_warmup_steps):
 
 def get_mask_from_lengths(lengths):
     max_len = torch.max(lengths).item()
-    ids = lengths.new_tensor(torch.arange(0, max_len))
+    ids = lengths.new_tensor(torch.arange(0, max_len, device=max_len.device))
     mask = (lengths.unsqueeze(1) <= ids).to(torch.bool)
     return mask.detach()
 
